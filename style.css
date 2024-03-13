@@ -5,6 +5,11 @@
 }
 
 body{
-    background-color: rgb(255, 221, 221);
+    background-color: rgb(250, 234, 234);
     text-align: center;
+}
+
+h1{
+    color: darkred;
+    
 }
