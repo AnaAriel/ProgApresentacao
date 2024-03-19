@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Ovo&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +7,122 @@
 }
 
 body{
-    background-color: rgb(250, 234, 234);
-    text-align: center;
+    
+    background-color: rgb(221, 221, 251);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
-h1{
-    color: darkred;
-    
+
+.parallax{
+    width: 100%;
 }
+
+main{
+    display: block;
+    background-color:  white;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 300px;
+}
+
+section.module h1{
+    color: rgb(0, 0, 0);
+    font-family: "Volkhov", serif;
+    font-size: 65px;
+    font-weight: 1100;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80%;
+    margin-left: 20px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family: "Volkhov", serif;
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: "Volkhov", serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+section.module.texto{
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgb(221, 221, 251);
+}
+
+section.module.parallax{
+    display: flex;
+    height: 50vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.imagem{
+    background-image: url(https://getwallpapers.com/wallpaper/full/6/f/8/907079-van-gogh-wallpaper-1920x1080-for-phone.jpg);
+}
+
+section.module.imagem-2{
+    background-image: url(livro.png);
+}
+
+.menu{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(210, 210, 235);
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu:hover{
+    background-color: rgb(172, 172, 248);
+    color: rgb(0, 0, 0);
+}
+
+.frase{
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 300px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 20px 0 20px 0;
+  }
+
+.descrição{
+    flex: 1;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.imagem {
+    flex: 1;
+    display: flex;
+    padding-left: 80px;
+  }
+  
+  .imagem img {
+    width: 80%;
+    height: auto;
+    padding-right: 50px;
+
+  }
