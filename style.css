@@ -8,9 +8,13 @@
 
 body{
     
-    background-color: rgb(221, 221, 251);
+    background-color: rgb(205, 205, 247);
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+.livro{
+    background-color: rgb(240, 231, 223);
 }
 
 
@@ -29,7 +33,7 @@ main{
 }
 
 section.module h1{
-    color: rgb(0, 0, 0);
+    color: rgb(0,0,0);
     font-family: "Volkhov", serif;
     font-size: 65px;
     font-weight: 1100;
@@ -40,7 +44,7 @@ section.module h1{
 }
 
 h3{
-    color: rgb(0, 0, 0);
+    color: rgb(12, 12, 66);
     font-family: "Volkhov", serif;
     margin-bottom: 25px;
     font-weight: 900;
@@ -58,7 +62,7 @@ h2{
 section.module.texto{
     text-align: center;
     padding: 40px 0;
-    background-color: rgb(221, 221, 251);
+    background-color: rgb(205, 205, 247);
 }
 
 section.module.parallax{
@@ -82,17 +86,16 @@ section.module.imagem-2{
 }
 
 .menu{
-    text-align: center;
     padding: 10px;
-    background-color: rgb(210, 210, 235);
+    background-color: rgb(195, 195, 242);
     border-radius: 4px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(12, 12, 66);
 }
 
-.menu:hover{
-    background-color: rgb(172, 172, 248);
-    color: rgb(0, 0, 0);
+menu:hover{
+    background-color: rgb(12, 12, 66);
+    color: rgb(195, 195, 242);
 }
 
 .frase{
@@ -102,27 +105,47 @@ section.module.imagem-2{
     padding: 0 300px;
 }
 
-.container {
+.frase-2{
+    font-style: italic;
+    text-align: justify;
+}
+
+.frase-3{
+    font-style: italic;
+    text-align: justify;
+}
+
+.frase-4{
+    font-style: italic;
+    text-align: justify;
+}
+
+.container-1 {
     display: flex;
     width: 100%;
-    padding: 20px 0 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 80px;
   }
 
 .descrição{
     flex: 1;
-    padding-left: 50px;
+    padding-left: 70px;
+    padding-right: 20px;
     text-align: justify;
+    align-items: center;
 }
 
 .imagem {
     flex: 1;
     display: flex;
-    padding-left: 80px;
   }
   
   .imagem img {
-    width: 80%;
-    height: auto;
-    padding-right: 50px;
-
+    width: 500px;
+    float: right;
+    margin-left: 20px;
   }
+
+  
